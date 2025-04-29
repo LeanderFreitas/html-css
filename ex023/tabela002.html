@@ -22,7 +22,13 @@
         }
         td.num{
             text-align: right;
-
+        }
+        tbody > tr:nth-child(odd){/*  2n-1   */
+            background-color: white;
+        }
+        tbody > tr:nth-child(even){/*   2n   */
+            background-color:#383838;
+            color: white;
         }
         caption{
             font-size: 1.5em;
@@ -30,7 +36,6 @@
             padding: 10px;
             background-color: lightslategrey;
         }
-        
     </style>
 </head>
 <body>
@@ -46,7 +51,7 @@
             TFOOT
                 TR,TD,TH
    --> 
-    <table> 
+   <table> 
         <caption>População das unidades Federativas</caption>
             <thead>
                     <tr>
