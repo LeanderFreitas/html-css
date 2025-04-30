@@ -11,6 +11,7 @@
         table{
             width: 500px;
             border-collapse: collapse;
+            position: relative;
         }
         td ,th{
             border: 1px solid black;
@@ -20,6 +21,12 @@
             background-color: grey;
             color: white;
         }
+        thead > tr > th{
+            position: static;
+            top: -1px;
+            background-color: #383838;
+
+        }
         td.num{
             text-align: right;
         }
@@ -28,6 +35,10 @@
         }
         tbody > tr:nth-child(even){/*   2n   */
             background-color:#383838;
+            color: white;
+        }
+        tfoot{
+            background-color: #383838;
             color: white;
         }
         caption{
