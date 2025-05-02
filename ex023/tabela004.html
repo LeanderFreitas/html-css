@@ -22,6 +22,11 @@
             padding: 10px;
             text-align: right;
         }
+        th{
+            border: 1px solid black;
+            padding: 10px;
+            text-align: center;
+        }
          td.conteudo{
             text-align: center;
         }
@@ -34,14 +39,14 @@
     <table>
         <thead>
           <tr>
-                <td class="conteudo">Grupo</td>
-                <td class="conteudo">Nomes</td>
-                <td colspan="7" class="conteudo">Filmes</td>
+                <th scope="col"  class="conteudo">Grupo</th>
+                <th scope="col" colspan="5" class="conteudo">Nomes</th>
+                <th scope="colgroup"  colspan="7" class="conteudo">Filmes</th>
           </tr>
         </thead>
         <tbody>
             <tr>
-                <td rowspan="3">Mulheres</td>
+                <th scope="rowgroup" rowspan="3">Mulheres</th>
                 <td colspan="5">Ana Maria Santos</td>
                 <td colspan="1">Alien</td>
                 <td colspan="1">Rambo</td>
@@ -60,7 +65,7 @@
                 </tr>
             </tr>
             <tr>
-                <td rowspan="3">Homens</td>
+                <th scope="rowgroup"  rowspan="3">Homens</th>
                 <td colspan="5">Bruno Mendonça</td>
                 <td>Intocáveis</td>
                 <td>Amnésia</td>
@@ -80,6 +85,12 @@
             </tr>
             </tr>
         </tbody>
+        <tfoot>
+            <tr>
+                <th scope="row" colspan="8">Total</th>
+                <td>1000</td>
+            </tr>
+        </tfoot>
     </table>
 </body>
 </html>
