@@ -3,5 +3,6 @@
 /* Aparelho em pé (portrait) */
 
 body{
-    background-color: green;
+   background-image: url();
+   background-position:  center bottom;
 }
