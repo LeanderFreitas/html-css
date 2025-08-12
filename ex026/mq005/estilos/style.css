@@ -5,9 +5,11 @@
      margin: 0px;
      padding: 0px;
 }
-
-body html{
-background-color: lightgrey;
+body{
+background-color: lightgray;
+}
+body > html{
+background-color: grey ;
 }
 header{
     background-color: rgb(148, 148, 148);
