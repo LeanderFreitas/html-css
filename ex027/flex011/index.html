@@ -14,19 +14,32 @@
             background-color: blueviolet;
             border: 1px solid white;
             text-align: center;
-            flex-basis: 200px;
         }
         div#cxA{
+            /* 
              flex-shrink: 0;
              flex-grow: 1;   
+             flex-basis: auto;
+            */
+             
+             flex: 1 0 auto;
         }
         div#cxB{
+            /* 
             flex-shrink: 1;
             flex-grow: 1;
+            flex-basis: auto;
+            */
+
+            flex: 1 1 auto;
         }
         div#cxC{
+            /*
             flex-shrink: 8;
             flex-grow: 1;
+            flex-basis: auto;
+            */
+            flex: 1 8 auto ;
         }
     </style>
 </head>
