@@ -16,11 +16,7 @@
 }
 .principal{
     background-color: blue;
-    grid-area: 3 / 1 / 7 / 5;
-}
-.secundario{
-    background-color: rgb(140, 0, 255);
-    grid-area: 3 / 5 / 7 / 6;
+    grid-area: 3 / 1 / 7 / 6;
 }
 .rodape{
     background-color: orange;
